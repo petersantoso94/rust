@@ -6,3 +6,11 @@ ports:
   - port: 4000
   - port: 5432
   - port: 6379
+
+tasks:
+  - command: |
+        curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+vscode:
+  extensions:
+    - matklad.rust-analyzer@0.2.513:NOleMPFGRWL/mDWC6lQ7rA==
